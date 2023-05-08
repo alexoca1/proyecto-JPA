@@ -31,7 +31,7 @@ public class UserController {
 
         Iterable<User> individuos = userService.getAllUsers();
          log.info("estoy ejecutando el controlador MVC");
-        String individuos1="hola esto es una prueba";
+
 
         model.addAttribute("individuos", individuos);
 
